@@ -7,17 +7,18 @@
     <link rel="stylesheet" href="src/output.css">
 </head>
 <body class="bg-sky-700">
-    <audio autoplay loop ><source src="img/sound.mp3" type="audio/mp3"></audio>
     <div class="mt-24 mb-16 bg-white max-w-4xl px-10 mx-auto">
         <div class="flex flex-row">
-            <div class="basis-3/4">
-                <img src="img/pic1.jpg" class="w-full -mt-10 drop-shadow-2xl aspect-[3/4]" alt="">
+            <div class="basis-3/4" >
+                <video id="myVideo" class="w-full -mt-10 h-auto drop-shadow-2xl aspect-[2/4]" autoplay loop muted>
+                    <source src="img/snaptik.vn_6e04a.mp4" type="video/mp4">
+                </video>
             </div>
             <div class="ml-4 mt-3 grow">
                 <div class="flex flex-row w-full">
                     <div class="grow border-b border-r border-b-sky-700 border-r-sky-700 pb-2 pl-4">
                         <h2 class="font-mono text-lg font-medium">Xin Chào</h2>
-                        <p class="font-thin text-sm text-sky-700 font-extralight">Ước Mơ Cưới Được Mai Phương</p>
+                        <p class="font-thin text-sm text-sky-700 font-extralight">Yeah I am Rachel-(luminous)</p>
                     </div>
                     <div class="grow border-b border-r border-b-sky-700 border-r-sky-700 pb-2 pl-4 text-center">
                         <h2 class="font-mono text-lg font-medium">Sở Thích</h2>
@@ -31,38 +32,46 @@
                     <div class="flex flex-row">
                         <div>
                             <h2 class="font-mono text-lg font-medium">Giới Thiệu Bản thân</h2>
-                            <p>Hi các bạn mình là một trong những nhà đồng sáng lập WINTECH ,Câu slogan của WINTECH đó chính là WINTECH the extensions save the world.</p>
+                            <p>Hi các bạn mình là một trong những nhà đồng sáng lập WINTECH ,Câu slogan của WINTECH đó chính là WINTECH the save the world.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="mt-6 pb-4 flex">
-            <h2 class="font-thin text-1xl font-extrabold">Danh sách muốn Mai Phương làm cosplay</h2>
+            <h2 class="font-thin text-1xl font-extrabold">LiveWallpaper For Rachel-(luminous)</h2>
         </div>
-        <div class="grid grid-cols-10 gap-2 mt-2">
-            <div class="col-span-2">
-                <img src="img/2.gif" class="w-72 h-auto object-cover" alt="">
-            </div>
-            <div class="col-span-2">
-                <img src="img/2.gif" class="w-72 h-auto object-cover" alt="">
-            </div>
-            <div class="col-span-2">
-                <img src="img/2.gif" class="w-72 h-auto object-cover" alt="">
-            </div>
-            <div class="col-span-2">
-                <img src="img/2.gif" class="w-72 h-auto object-cover" alt="">
-            </div>
-            <div class="row-span-2">
-                <img src="img/2.gif" class="w-72 h-auto object-cover" alt="">
-            </div>
-            <div class="row-span-2">
-                <img src="img/2.gif" class="w-72 h-auto object-cover" alt="">
-            </div>
-            
-            
-           
+        <div >
+            <div class="w-full">
+                <video class="w-full mt-20 h-auto drop-shadow-2xl aspect-[2/4]" muted loop autoplay alt="">
+                    <source src="img/Comp 1.mp4" type="video/mp4">
+                </video>
+            </div>      
     </div>
-    
+    <audio id="audioPlayer" autoplay loop>
+        <source src="img/DJ GRATATATA REMIX 2021 -- viral tiktok patata.mp3" type="audio/mp3">
+    </audio>
+    <!-- <button onclick="playPause()"><img width="20px" src="img/play.png" alt=""></button>
+    <button onclick="nextSong()">Bài hát tiếp theo</button>
+    <script>
+        const songs = ["./img/sound.mp3", "song2.mp3", "song3.mp3"];
+        let currentSongIndex = 0;
+        const audioPlayer = document.getElementById('audioPlayer');
+
+        function playPause() {
+            if (audioPlayer.paused) {
+                audioPlayer.play();
+            } else {
+                audioPlayer.pause();
+            }
+        }
+
+        function nextSong() {
+            currentSongIndex = (currentSongIndex + 1) % songs.length;
+            audioPlayer.src = songs[currentSongIndex];
+            audioPlayer.play();
+        }
+    </script>
+    <script src="./js/vanilla-tilt.js"></script> -->
 </body>
 </html>
